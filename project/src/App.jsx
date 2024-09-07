@@ -2,6 +2,7 @@ import './Main.css'
 import logo from './Img/logo.png'
 import i1 from './Img/1.png'
 import i2 from './Img/2.png'
+import ContainerOne from "./Components/ContainerOne"
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
           </div>
         </div>
       </div>
+      <br /><br />
+      <ContainerOne />
     </>
   )
 }
